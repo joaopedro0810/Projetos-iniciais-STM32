@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model version="5.1.0" links="0">
+ <framework name="qpc"/>
+ <package name="AOs" stereotype="0x02">
+  <class name="SMLed" superclass="qpc::QMActive">
+   <attribute name="timer" type="QTimeEvt" visibility="0x00" properties="0x00"/>
+   <statechart properties="0x01">
+    <initial target="../1">
+     <initial_glyph conn="4,2,5,0,2,2">
+      <action box="0,-2,10,2"/>
+     </initial_glyph>
+    </initial>
+    <state name="Desligado">
+     <entry>QTimeEvt_armX(&amp;me-&gt;timer, BSP_TICKS_PER_SEC * 3, BSP_TICKS_PER_SEC/10);</entry>
+     <exit>QTimeEvt_disarm(&amp;me-&gt;timer);</exit>
+     <tran trig="TIMEOUT">
+      <action>PublicarEvento();</action>
+      <tran_glyph conn="4,20,3,-1,26">
+       <action box="0,-2,26,4"/>
+      </tran_glyph>
+     </tran>
+     <state_glyph node="4,4,72,22">
+      <entry box="1,2,61,4"/>
+      <exit box="1,6,25,4"/>
+     </state_glyph>
+    </state>
+    <state_diagram size="80,30"/>
+   </statechart>
+  </class>
+  <class name="SMConsumer" superclass="qpc::QMActive">
+   <statechart properties="0x01">
+    <initial target="../1">
+     <initial_glyph conn="4,2,5,0,2,2">
+      <action box="0,-2,10,2"/>
+     </initial_glyph>
+    </initial>
+    <state name="Consumindo">
+     <entry>QActive_subscribe((QActive *)me, PISCAR_LED_SIG);</entry>
+     <tran trig="PISCAR_LED">
+      <action>ToggleLED(Q_EVT_CAST(EvtPiscaLED)-&gt;quantidade);</action>
+      <tran_glyph conn="4,18,3,-1,24">
+       <action box="0,-2,25,4"/>
+      </tran_glyph>
+     </tran>
+     <state_glyph node="4,4,72,22">
+      <entry box="1,2,42,5"/>
+     </state_glyph>
+    </state>
+    <state_diagram size="80,50"/>
+   </statechart>
+  </class>
+ </package>
+ <package name="Eventos" stereotype="0x01">
+  <class name="EvtPiscaLED" superclass="qpc::QEvt">
+   <attribute name="quantidade" type="uint8_t" visibility="0x00" properties="0x00"/>
+  </class>
+ </package>
+ <directory name=".\Core\Inc">
+  <file name="SMLed.h">
+   <text>#ifndef SMLED_H
+#define SMLED_H
+
+#include &quot;qf_port.h&quot;
+#include &quot;SharedData.h&quot;
+
+$declare(AOs::SMLed)
+
+void SMLed_ctor(void);
+
+extern QMActive * const AO_SMLed;
+
+#endif</text>
+  </file>
+  <file name="SharedData.h">
+   <text>#ifndef SHAREDDATA_H
+#define SHAREDDATA_H
+
+#include &quot;qf_port.h&quot;
+
+#define BSP_TICKS_PER_SEC 1000
+
+// Enum de sinais.
+enum signals
+{
+    // Eventos que podem ser utilizados pelo mecanismo de publish-subscribe.
+    // Todos devem ficar antes de MAX_PUB_SIG,
+    PISCAR_LED_SIG = Q_USER_SIG,
+    MAX_PUB_SIG,
+
+    // Eventos do SMLed.
+    TIMEOUT_SIG,
+
+};
+
+$declare(Eventos::EvtPiscaLED)
+
+#endif</text>
+  </file>
+  <file name="SMConsumer.h">
+   <text>#ifndef SMCONSUMER_H
+#define SMCONSUMER_H
+
+#include &quot;qf_port.h&quot;
+#include &quot;SharedData.h&quot;
+
+$declare(AOs::SMConsumer)
+
+void SMConsumer_ctor(void);
+
+extern QMActive * const AO_SMConsumer;
+
+#endif</text>
+  </file>
+ </directory>
+ <directory name=".\Core\Src">
+  <file name="SMLed.c">
+   <text>#include &quot;SMLed.h&quot;
+#include &quot;SMLedActions.h&quot;
+#include &quot;SharedData.h&quot;
+
+static SMLed l_led; /* the sole instance of the SMLed active object */
+
+/* Public-scope objects
+----------------------------------------------------*/
+QMActive * const AO_SMLed = (QMActive *)&amp;l_led; /* opaque pointer */
+
+void SMLed_ctor(void)
+{
+    SMLed *me = &amp;l_led;
+    
+    // Construtor. Inicializa e coloca no estado inicial.
+    QMActive_ctor(&amp;me-&gt;super, Q_STATE_CAST(&amp;SMLed_initial));
+    QTimeEvt_ctorX(&amp;me-&gt;timer, (QActive *) &amp;me-&gt;super, TIMEOUT_SIG, 0U);
+}
+
+$define(AOs::SMLed)</text>
+  </file>
+  <file name="SMConsumer.c">
+   <text>#include &quot;SMConsumer.h&quot;
+#include &quot;SMConsumerActions.h&quot;
+#include &quot;SharedData.h&quot;
+
+static SMConsumer l_consumer; /* the sole instance of the SMConsumer active object */
+
+/* Public-scope objects
+----------------------------------------------------*/
+QMActive * const AO_SMConsumer = (QMActive *)&amp;l_consumer; /*
+
+opaque pointer */
+void SMConsumer_ctor(void)
+{
+    SMConsumer *me = &amp;l_consumer;
+
+    // Construtor. Inicializa e coloca no estado inicial.
+    QMActive_ctor(&amp;me-&gt;super, Q_STATE_CAST(&amp;SMConsumer_initial));
+}
+
+$define(AOs::SMConsumer)</text>
+  </file>
+ </directory>
+</model>

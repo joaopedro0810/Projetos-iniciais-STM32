@@ -1,0 +1,6 @@
+../QP/src/qf/qf_dyn.c:107:6:QF_poolInit	24	static
+../QP/src/qf/qf_dyn.c:160:7:QF_newX_	32	static
+../QP/src/qf/qf_dyn.c:241:6:QF_gc	24	static
+../QP/src/qf/qf_dyn.c:305:13:QF_newRef_	16	static
+../QP/src/qf/qf_dyn.c:342:6:QF_deleteRef_	24	static
+../QP/src/qf/qf_dyn.c:362:15:QF_poolGetMaxBlockSize	4	static

@@ -1,0 +1,9 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../Core/Src/main.c:68:5:main	40	static
+../Core/Src/main.c:126:6:SystemClock_Config	88	static
+../Core/Src/main.c:168:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:200:6:QF_onStartup	4	static
+../Core/Src/main.c:202:6:QF_onCleanup	4	static
+../Core/Src/main.c:204:6:QV_onIdle	4	static,ignoring_inline_asm
+../Core/Src/main.c:209:6:Q_onAssert	16	static,ignoring_inline_asm
+../Core/Src/main.c:221:6:Error_Handler	4	static,ignoring_inline_asm

@@ -1,0 +1,7 @@
+C:/Users/joaop/Documents/WorkspaceEstudo/QP - Projeto01 - Bink/QP/include/qpset.h:80:20:QPSet_notEmpty	16	static
+C:/Users/joaop/Documents/WorkspaceEstudo/QP - Projeto01 - Bink/QP/include/qpset.h:95:20:QPSet_remove	16	static
+C:/Users/joaop/Documents/WorkspaceEstudo/QP - Projeto01 - Bink/QP/include/qpset.h:102:28:QPSet_findMax	16	static
+../QP/src/qv/qv.c:65:6:QF_init	8	static
+../QP/src/qv/qv.c:96:6:QF_stop	8	static
+../QP/src/qv/qv.c:109:7:QF_run	24	static,ignoring_inline_asm
+../QP/src/qv/qv.c:208:6:QActive_start_	24	static

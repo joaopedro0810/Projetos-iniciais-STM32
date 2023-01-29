@@ -1,0 +1,10 @@
+C:/Users/joaop/Documents/WorkspaceEstudo/QP - Projeto01 - Bink/QP/include/qpset.h:90:20:QPSet_insert	16	static
+../QP/src/qf/qf_actq.c:86:6:QActive_post_	32	static,ignoring_inline_asm
+../QP/src/qf/qf_actq.c:221:6:QActive_postLIFO_	24	static,ignoring_inline_asm
+../QP/src/qf/qf_actq.c:310:13:QActive_get_	24	static,ignoring_inline_asm
+../QP/src/qf/qf_actq.c:376:15:QF_getQueueMin	24	static,ignoring_inline_asm
+../QP/src/qf/qf_actq.c:419:6:QTicker_ctor	16	static
+../QP/src/qf/qf_actq.c:443:13:QTicker_init_	16	static
+../QP/src/qf/qf_actq.c:459:13:QTicker_dispatch_	24	static,ignoring_inline_asm
+../QP/src/qf/qf_actq.c:482:13:QTicker_post_	24	static,ignoring_inline_asm
+../QP/src/qf/qf_actq.c:522:13:QTicker_postLIFO_	16	static

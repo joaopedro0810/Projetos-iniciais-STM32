@@ -1,0 +1,8 @@
+../QP/src/qf/qf_time.c:88:6:QF_tickX_	32	static
+../QP/src/qf/qf_time.c:202:6:QF_noTimeEvtsActiveX	24	static
+../QP/src/qf/qf_time.c:239:6:QTimeEvt_ctorX	24	static
+../QP/src/qf/qf_time.c:301:6:QTimeEvt_armX	24	static
+../QP/src/qf/qf_time.c:380:6:QTimeEvt_disarm	24	static
+../QP/src/qf/qf_time.c:444:6:QTimeEvt_rearm	24	static
+../QP/src/qf/qf_time.c:530:6:QTimeEvt_wasDisarmed	24	static
+../QP/src/qf/qf_time.c:553:13:QTimeEvt_currCtr	24	static

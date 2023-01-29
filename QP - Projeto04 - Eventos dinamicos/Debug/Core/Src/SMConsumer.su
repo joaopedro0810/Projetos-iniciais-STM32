@@ -1,0 +1,4 @@
+../Core/Src/SMConsumer.c:32:6:SMConsumer_ctor	16	static
+../Core/Src/SMConsumer.c:49:8:SMConsumer_initial	16	static
+../Core/Src/SMConsumer.c:72:8:SMConsumer_Consumindo_e	16	static
+../Core/Src/SMConsumer.c:77:8:SMConsumer_Consumindo	24	static

@@ -1,0 +1,16 @@
+C:/Users/joaop/Documents/WorkspaceEstudo/QP - Projeto05 - Port para FreeRTOS/QP/include/qpset.h:80:20:QPSet_notEmpty	16	static
+C:/Users/joaop/Documents/WorkspaceEstudo/QP - Projeto05 - Port para FreeRTOS/QP/include/qpset.h:95:20:QPSet_remove	16	static
+C:/Users/joaop/Documents/WorkspaceEstudo/QP - Projeto05 - Port para FreeRTOS/QP/include/qpset.h:102:28:QPSet_findMax	16	static
+../QP/ports/freertos/qf_port.c:57:6:QF_init	4	static
+../QP/ports/freertos/qf_port.c:61:7:QF_run	8	static
+../QP/ports/freertos/qf_port.c:75:6:QF_stop	8	static
+../QP/ports/freertos/qf_port.c:79:6:QActive_start_	48	static
+../QP/ports/freertos/qf_port.c:117:6:QActive_setAttr	24	static
+../QP/ports/freertos/qf_port.c:131:13:task_function	24	static
+../QP/ports/freertos/qf_port.c:150:6:QActive_postFromISR_	56	static,ignoring_inline_asm
+../QP/ports/freertos/qf_port.c:249:6:QF_publishFromISR_	40	static,ignoring_inline_asm
+../QP/ports/freertos/qf_port.c:321:6:QF_tickXFromISR_	64	static,ignoring_inline_asm
+../QP/ports/freertos/qf_port.c:418:7:QF_newXFromISR_	32	static
+../QP/ports/freertos/qf_port.c:481:6:QF_gcFromISR	40	static,ignoring_inline_asm
+../QP/ports/freertos/qf_port.c:527:6:QMPool_putFromISR	40	static,ignoring_inline_asm
+../QP/ports/freertos/qf_port.c:553:7:QMPool_getFromISR	48	static,ignoring_inline_asm

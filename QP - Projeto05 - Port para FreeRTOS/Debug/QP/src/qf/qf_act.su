@@ -1,0 +1,4 @@
+../QP/src/qf/qf_act.c:65:6:QF_add_	24	static
+../QP/src/qf/qf_act.c:98:6:QF_remove_	24	static
+../QP/src/qf/qf_act.c:129:6:QF_bzero	24	static
+../QP/src/qf/qf_act.c:142:18:QF_LOG2	24	static

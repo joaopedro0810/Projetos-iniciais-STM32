@@ -1,0 +1,4 @@
+../QP/src/qf/qf_qeq.c:64:6:QEQueue_init	24	static
+../QP/src/qf/qf_qeq.c:103:6:QEQueue_post	32	static,ignoring_inline_asm
+../QP/src/qf/qf_qeq.c:202:6:QEQueue_postLIFO	32	static,ignoring_inline_asm
+../QP/src/qf/qf_qeq.c:268:13:QEQueue_get	24	static,ignoring_inline_asm

@@ -1,0 +1,2 @@
+../Core/Src/SMLedActions.c:11:6:LigarLED	8	static
+../Core/Src/SMLedActions.c:16:6:DesligarLED	8	static

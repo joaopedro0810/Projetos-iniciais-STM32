@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model version="5.1.0" links="0">
+ <framework name="qpc"/>
+ <package name="AOs" stereotype="0x02">
+  <class name="SMLed" superclass="qpc::QMActive">
+   <statechart properties="0x00">
+    <initial target="../1">
+     <initial_glyph conn="4,2,5,0,2,2">
+      <action box="0,-2,10,2"/>
+     </initial_glyph>
+    </initial>
+    <state name="Desligado">
+     <entry>LigarLED();</entry>
+     <tran trig="BOTAO" target="../../2">
+      <tran_glyph conn="8,16,2,0,18">
+       <action box="0,8,10,2"/>
+      </tran_glyph>
+     </tran>
+     <state_glyph node="4,4,38,12">
+      <entry box="1,2,11,4"/>
+     </state_glyph>
+    </state>
+    <state name="Ligado">
+     <entry>DesligarLED();</entry>
+     <tran trig="BOTAO" target="../../1">
+      <tran_glyph conn="36,34,0,2,-18">
+       <action box="0,-10,10,2"/>
+      </tran_glyph>
+     </tran>
+     <state_glyph node="4,34,38,12">
+      <entry box="1,2,13,4"/>
+     </state_glyph>
+    </state>
+    <state_diagram size="80,50"/>
+   </statechart>
+  </class>
+ </package>
+ <directory name=".\Core\Inc">
+  <file name="SMLed.h">
+   <text>#ifndef SMLED_H
+#define SMLED_H
+
+#include &quot;qf_port.h&quot;
+#include &quot;SharedData.h&quot;
+
+$declare(AOs::SMLed)
+
+void SMLed_ctor(void);
+
+extern QMActive * const AO_SMLed;
+
+#endif</text>
+  </file>
+  <file name="SharedData.h">
+   <text>#ifndef SHAREDDATA_H
+#define SHAREDDATA_H
+
+#include &quot;qf_port.h&quot;
+
+// Enum de sinais.
+enum signals
+{
+    BOTAO_SIG = Q_USER_SIG,
+
+};
+
+#endif</text>
+  </file>
+ </directory>
+ <directory name=".\Core\Src">
+  <file name="SMLed.c">
+   <text>#include &quot;SMLed.h&quot;
+#include &quot;SMLedActions.h&quot;
+#include &quot;SharedData.h&quot;
+
+static SMLed l_led; /* the sole instance of the SMLed active object */
+
+/* Public-scope objects
+----------------------------------------------------*/
+QMActive * const AO_SMLed = (QMActive *)&amp;l_led; /* opaque pointer */
+
+void SMLed_ctor(void)
+{
+    SMLed *me = &amp;l_led;
+    
+    // Construtor. Inicializa e coloca no estado inicial.
+    QMActive_ctor(&amp;me-&gt;super, Q_STATE_CAST(&amp;SMLed_initial));
+}
+
+$define(AOs::SMLed)</text>
+  </file>
+ </directory>
+</model>
