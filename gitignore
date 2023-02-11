@@ -1,0 +1,4 @@
+# Diretórios que não precisam ser versionados
+
+Debug/
+.metadata/
