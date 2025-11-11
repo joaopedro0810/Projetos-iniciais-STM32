@@ -1,0 +1,293 @@
+# ==========================================================================
+# .gitignore para Projetos STM32CubeIDE
+# ==========================================================================
+
+# ==========================================================================
+# Diretórios de Build e Debug
+# ==========================================================================
+Debug/
+Release/
+Optimized/
+build/
+**/Debug/
+**/Release/
+
+# ==========================================================================
+# Metadados do Eclipse/STM32CubeIDE
+# ==========================================================================
+.metadata/
+.settings/
+.loadpath
+.recommenders/
+.project
+.cproject
+.classpath
+.factorypath
+.buildpath
+.target
+
+# Arquivos XML de configuração específicos do workspace
+*.language.settings.xml
+.log4j.xml
+
+# Arquivos de preferências e índices
+*.prefs
+*.index
+*.tree
+*.location
+*.snap
+*.safetable
+*.markers
+
+# ==========================================================================
+# Configurações específicas do STM32CubeIDE
+# ==========================================================================
+*.launch
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# ==========================================================================
+# Arquivos temporários e de cache
+# ==========================================================================
+*.tmp
+*.temp
+*.cache
+*.log
+*.tlog
+*.pdb
+*.idb
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ==========================================================================
+# Arquivos compilados
+# ==========================================================================
+*.o
+*.lo
+*.slo
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.bin
+*.hex
+*.elf
+*.axf
+*.map
+*.list
+*.lss
+*.sym
+*.size
+
+# ==========================================================================
+# Arquivos de dependências
+# ==========================================================================
+*.dep
+*.d
+*.su
+*.cyclo
+
+# ==========================================================================
+# Arquivos de documentação gerados
+# ==========================================================================
+html/
+latex/
+*.pdf
+doc/
+
+# ==========================================================================
+# Arquivos específicos do STM32
+# ==========================================================================
+*.s19
+*.srec
+*.mot
+*.ihex
+
+# ==========================================================================
+# Arquivos de backup
+# ==========================================================================
+*~
+*.bak
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*.backup
+*~$*
+
+# ==========================================================================
+# Arquivos do sistema operacional
+# ==========================================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================================================
+# IDEs e Editores
+# ==========================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.swp
+*.swo
+*~
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==========================================================================
+# Ferramentas de versionamento
+# ==========================================================================
+.svn/
+.hg/
+.bzr/
+
+# ==========================================================================
+# Arquivos específicos do workspace
+# ==========================================================================
+*.workspace
+.metadata/
+.recommenders/
+RemoteSystemsTempFiles/
+
+# ==========================================================================
+# Logs específicos
+# ==========================================================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ==========================================================================
+# Arquivos de configuração local (não compartilhados)
+# ==========================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================================================
+# Arquivos específicos do projeto STM32CubeIDE
+# ==========================================================================
+*.ld.orig
+*.ioc.orig
+mx.scratch
+
+# Configurações de launch/debug (específicas da máquina)
+*Debug.launch
+*.launch.old
+
+# ==========================================================================
+# Diretórios de dependências externas (HAL/CMSIS)
+# ==========================================================================
+# Nota: Descomente as linhas abaixo se usar drivers como submodules
+# Middlewares/Third_Party/
+# Drivers/CMSIS/
+# Drivers/STM32*xx_HAL_Driver/
+
+# ==========================================================================
+# Arquivos gerados pelo CubeMX
+# ==========================================================================
+Src/main.c.orig
+Inc/main.h.orig
+
+# ==========================================================================
+# Arquivos específicos do workspace atual
+# ==========================================================================
+# Simulacao Modbus
+*.ptp
+
+# ==========================================================================
+# Arquivos que DEVEM ser versionados
+# ==========================================================================
+# !*.ioc          # Arquivos de configuração CubeMX
+# !*.ld           # Linker scripts
+# !Core/Src/      # Código fonte principal
+# !Core/Inc/      # Headers principais
+# !Drivers/       # Drivers específicos do projeto
+
+# ==========================================================================
+# Fim do .gitignore - STM32CubeIDE Projects
+# ==========================================================================

@@ -80,15 +80,15 @@ Fundamentos de GPIO, timers e controle básico.
 - **[Projeto01](./Projeto01/)** - Primeiro projeto
 - **[Projeto02 - Debugger](./Projeto02%20-%20Debugger/)** - Uso do debugger
 - **[Projeto03 - Toggle LED](./Projeto03%20-%20Toggle%20led/)** - Controle básico de LED
-- **[Projeto04 - Bootloader Blink](./Projeto04%20-%20Bootloader%20Blink/)** - LED piscante
-- **[Projeto05 - Clock1](./Projeto05%20-%20Clock1/)** - Configuração de clock
-- **[Projeto06 - GPIO1](./Projeto06%20-%20GPIO1/)** - Manipulação de GPIO
-- **[Projeto07 - GPIO Interrupt](./Projeto07%20-%20GPIO%20Interrupt/)** - Interrupções de GPIO
-- **[Projeto08 - Timers](./Projeto08%20-%20Timers/)** - Uso básico de timers
-- **[Projeto09 - Timer](./Projeto09%20-%20Timer/)** - Timer avançado
-- **[Projeto10 - Timer Interrupt](./Projeto10%20-%20Timer%20Interrupt/)** - Interrupções de timer
-- **[Projeto11 - Output Compare](./Projeto11%20-%20Output%20Compare%20OC/)** - Comparação de saída
-- **[Projeto12 - Input Capture](./Projeto12%20-%20Input%20Capture%20IC/)** - Captura de entrada
+- **[Projeto04 - Bootloader Blink](./Projeto04%20-%20Bootloader%20Blink/)** - LED piscante ([📖 README](./Projeto04%20-%20Bootloader%20Blink/README.md))
+- **[Projeto05 - Clock1](./Projeto05%20-%20Clock1/)** - Configuração de clock ([📖 README](./Projeto05%20-%20Clock1/README.md))
+- **[Projeto06 - GPIO1](./Projeto06%20-%20GPIO1/)** - Manipulação de GPIO ([📖 README](./Projeto06%20-%20GPIO1/README.md))
+- **[Projeto07 - GPIO Interrupt](./Projeto07%20-%20GPIO%20Interrupt/)** - Interrupções de GPIO ([📖 README](./Projeto07%20-%20GPIO%20Interrupt/README.md))
+- **[Projeto08 - Timers](./Projeto08%20-%20Timers/)** - Uso básico de timers ([📖 README](./Projeto08%20-%20Timers/README.md))
+- **[Projeto09 - Timer](./Projeto09%20-%20Timer/)** - Timer avançado ([📖 README](./Projeto09%20-%20Timer/README.md))
+- **[Projeto10 - Timer Interrupt](./Projeto10%20-%20Timer%20Interrupt/)** - Interrupções de timer ([📖 README](./Projeto10%20-%20Timer%20Interrupt/README.md))
+- **[Projeto11 - Output Compare](./Projeto11%20-%20Output%20Compare%20OC/)** - Comparação de saída ([📖 README](./Projeto11%20-%20Output%20Compare%20OC/README.md))
+- **[Projeto12 - Input Capture](./Projeto12%20-%20Input%20Capture%20IC/)** - Captura de entrada ([📖 README](./Projeto12%20-%20Input%20Capture%20IC/README.md))
 
 ### 🔵 Conversores Analógico-Digitais (13-19)
 ADC, sensores e aquisição de dados.
