@@ -93,78 +93,78 @@ Fundamentos de GPIO, timers e controle básico.
 ### 🔵 Conversores Analógico-Digitais (13-19)
 ADC, sensores e aquisição de dados.
 
-- **[Projeto13 - ADC Simples](./Projeto13%20-%20ADC%20Simples/)** - ADC básico
-- **[Projeto14 - ADC Simples 2](./Projeto14%20-%20ADC%20Simples%202/)** - ADC múltiplos canais
-- **[Projeto15 - Sensor Temperatura](./Projeto15%20-%20Sensor%20de%20temperatura%20interno/)** - Sensor interno
-- **[Projeto16 - ADC Interrupção](./Projeto16%20-%20ADC%20Interrupcao/)** - ADC com interrupções
-- **[Projeto17 - ADC com DMA](./Projeto17%20-%20ADC%20com%20DMA/)** - ADC com DMA
-- **[Projeto18 - Frequência Amostragem](./Projeto18%20-%20Frequencia%20de%20amostrage%201/)** - Taxa de amostragem
-- **[Projeto19 - ADC Simultâneo](./Projeto19%20-%20Simult%20ADC/)** - ADC simultâneo
+- **[Projeto13 - ADC Simples](./Projeto13%20-%20ADC%20Simples/)** - ADC básico ([📖 README](./Projeto13%20-%20ADC%20Simples/README.md))
+- **[Projeto14 - ADC Simples 2](./Projeto14%20-%20ADC%20Simples%202/)** - ADC múltiplos canais ([📖 README](./Projeto14%20-%20ADC%20Simples%202/README.md))
+- **[Projeto15 - Sensor Temperatura](./Projeto15%20-%20Sensor%20de%20temperatura%20interno/)** - Sensor interno ([📖 README](./Projeto15%20-%20Sensor%20de%20temperatura%20interno/README.md))
+- **[Projeto16 - ADC Interrupção](./Projeto16%20-%20ADC%20Interrupcao/)** - ADC com interrupções ([📖 README](./Projeto16%20-%20ADC%20Interrupcao/README.md))
+- **[Projeto17 - ADC com DMA](./Projeto17%20-%20ADC%20com%20DMA/)** - ADC com DMA ([📖 README](./Projeto17%20-%20ADC%20com%20DMA/README.md))
+- **[Projeto18 - Frequência Amostragem](./Projeto18%20-%20Frequencia%20de%20amostrage%201/)** - Taxa de amostragem ([📖 README](./Projeto18%20-%20Frequencia%20de%20amostrage%201/README.md))
+- **[Projeto19 - ADC Simultâneo](./Projeto19%20-%20Simult%20ADC/)** - ADC simultâneo ([📖 README](./Projeto19%20-%20Simult%20ADC/README.md))
 
 ### 🟡 Conversores Digital-Analógicos (20-25)
 DAC e geração de sinais.
 
-- **[Projeto20 - DAC 01](./Projeto20%20-%20DAC%2001/)** - DAC básico
-- **[Projeto21 - DAC 02](./Projeto21%20-%20DAC%2002/)** - DAC com DMA
-- **[Projeto22 - DAC 03](./Projeto22%20-%20DAC%2003/)** - Geração de ondas
-- **[Projeto23 - DAC 04](./Projeto23%20-%20DAC%2004/)** - DAC dual
-- **[Projeto24 - DAC 05](./Projeto24%20-%20DAC%2005/)** - DAC avançado
-- **[Projeto25 - DAC PWM](./Projeto25%20-%20DAC_PWM/)** - DAC com PWM
+- **[Projeto20 - DAC 01](./Projeto20%20-%20DAC%2001/)** - DAC básico ([📖 README](./Projeto20%20-%20DAC%2001/README.md))
+- **[Projeto21 - DAC 02](./Projeto21%20-%20DAC%2002/)** - DAC dual-channel ([📖 README](./Projeto21%20-%20DAC%2002/README.md))
+- **[Projeto22 - DAC 03](./Projeto22%20-%20DAC%2003/)** - DAC com DMA ([📖 README](./Projeto22%20-%20DAC%2003/README.md))
+- **[Projeto23 - DAC 04](./Projeto23%20-%20DAC%2004/)** - Gerador senoidal ([📖 README](./Projeto23%20-%20DAC%2004/README.md))
+- **[Projeto24 - DAC 05](./Projeto24%20-%20DAC%2005/)** - Onda triangular ([📖 README](./Projeto24%20-%20DAC%2005/README.md))
+- **[Projeto25 - DAC PWM](./Projeto25%20-%20DAC_PWM/)** - PWM como DAC ([📖 README](./Projeto25%20-%20DAC_PWM/README.md))
 
 ### 🔴 Gerenciamento de Energia (26-35)
 Watchdog, modos de baixo consumo e RTC.
 
-- **[Projeto26 - IWDG](./Projeto26%20-%20WatchDog%20IWDG/)** - Independent Watchdog
-- **[Projeto27 - WWDG](./Projeto27%20-%20WatchDog%20WWDG/)** - Window Watchdog
-- **[Projeto28 - Sleep Mode](./Projeto28%20-%20Sleep%20Mode%2001/)** - Modo sleep
+- **[Projeto26 - IWDG](./Projeto26%20-%20WatchDog%20IWDG/)** - Independent Watchdog ([📖 README](./Projeto26%20-%20WatchDog%20IWDG/README.md))
+- **[Projeto27 - WWDG](./Projeto27%20-%20WatchDog%20WWDG/)** - Window Watchdog ([📖 README](./Projeto27%20-%20WatchDog%20WWDG/README.md))
+- **[Projeto28 - Sleep Mode](./Projeto28%20-%20Sleep%20Mode%2001/)** - Modo sleep ([📖 README](./Projeto28%20-%20Sleep%20Mode%2001/README.md))
 - **[Projeto29 - Stop Mode](./Projeto29%20-%20Stop%20Mode/)** - Modo stop
-- **[Projeto30 - Shutdown Mode](./Projeto30%20-%20Shutdown%20Mode/)** - Modo shutdown
-- **[Projeto31 - Standby Mode](./Projeto31%20-%20Standby%20Mode/)** - Modo standby
-- **[Projeto32 - RTC 1](./Projeto32%20-%20RTC%201/)** - Real Time Clock básico
-- **[Projeto33 - RTC 2](./Projeto33%20-%20RTC%202/)** - RTC com alarme
-- **[Projeto34 - RTC 3](./Projeto34%20-%20RTC%203/)** - RTC avançado
-- **[Projeto35 - RTC 4](./Projeto35%20-%20RTC%204/)** - RTC com backup
+- **[Projeto30 - Shutdown Mode](./Projeto30%20-%20Shutdown%20Mode/)** - Modo shutdown ([📖 README](./Projeto30%20-%20Shutdown%20Mode/README.md))
+- **[Projeto31 - Standby Mode](./Projeto31%20-%20Standby%20Mode/)** - Modo standby ([📖 README](./Projeto31%20-%20Standby%20Mode/README.md))
+- **[Projeto32 - RTC 1](./Projeto32%20-%20RTC%201/)** - Real Time Clock básico ([📖 README](./Projeto32%20-%20RTC%201/README.md))
+- **[Projeto33 - RTC 2](./Projeto33%20-%20RTC%202/)** - RTC com LSE e MCO ([📖 README](./Projeto33%20-%20RTC%202/README.md))
+- **[Projeto34 - RTC 3](./Projeto34%20-%20RTC%203/)** - RTC com datetime específico ([📖 README](./Projeto34%20-%20RTC%203/README.md))
+- **[Projeto35 - RTC 4](./Projeto35%20-%20RTC%204/)** - RTC com sistema de alarme ([📖 README](./Projeto35%20-%20RTC%204/README.md))
 
 ### 🟣 Comunicação Serial (36-40)
 UART, SPI, I2C e sensores.
 
-- **[Projeto36 - Serial 01](./Projeto36%20-%20Serial%2001/)** - UART básica
-- **[Projeto37 - Serial 02](./Projeto37%20-%20Serial%2002/)** - UART com interrupção
-- **[Projeto38 - Serial 03](./Projeto38%20-%20Serial%2003/)** - UART com DMA
-- **[Projeto39 - I2C ADXL345](./Projeto39%20-%20I2C%20ADXL345/)** - Acelerômetro I2C
-- **[Projeto40 - SPI ADXL345](./Projeto40%20-%20SPI%20ADXL345/)** - Acelerômetro SPI
+- **[Projeto36 - Serial 01](./Projeto36%20-%20Serial%2001/)** - UART básica ([📖 README](./Projeto36%20-%20Serial%2001/README.md))
+- **[Projeto37 - Serial 02](./Projeto37%20-%20Serial%2002/)** - UART com interrupção ([📖 README](./Projeto37%20-%20Serial%2002/README.md))
+- **[Projeto38 - Serial 03](./Projeto38%20-%20Serial%2003/)** - UART com DMA ([📖 README](./Projeto38%20-%20Serial%2003/README.md))
+- **[Projeto39 - I2C ADXL345](./Projeto39%20-%20I2C%20ADXL345/)** - Acelerômetro I2C ([📖 README](./Projeto39%20-%20I2C%20ADXL345/README.md))
+- **[Projeto40 - SPI ADXL345](./Projeto40%20-%20SPI%20ADXL345/)** - Acelerômetro SPI ([📖 README](./Projeto40%20-%20SPI%20ADXL345/README.md))
 
 ### 🟠 Sistemas em Tempo Real (41-48)
 FreeRTOS e programação concorrente.
 
-- **[Projeto41 - RTOS 01](./Projeto41%20-%20RTOS%2001/)** - Introdução ao FreeRTOS
-- **[Projeto42 - RTOS 02](./Projeto42%20-%20RTOS%2002/)** - Tarefas múltiplas
-- **[Projeto43 - RTOS 03](./Projeto43%20-%20RTOS%2003/)** - Semáforos
-- **[Projeto44 - RTOS 04](./Projeto44%20-%20RTOS%2004/)** - Filas (Queues)
-- **[Projeto45 - RTOS 05](./Projeto45%20-%20RTOS%2005/)** - Mutex
-- **[Projeto46 - RTOS 06](./Projeto46%20-%20RTOS%2006/)** - Grupos de eventos
-- **[Projeto47 - RTOS 07](./Projeto47%20-%20RTOS%2007/)** - Timers de software
-- **[Projeto48 - RTOS 08](./Projeto48%20-%20RTOS%2008/)** - Notificações de tarefas
+- **[Projeto41 - RTOS 01](./Projeto41%20-%20RTOS%2001/)** - Introdução ao FreeRTOS ([📖 README](./Projeto41%20-%20RTOS%2001/README.md))
+- **[Projeto42 - RTOS 02](./Projeto42%20-%20RTOS%2002/)** - Tarefas múltiplas ([📖 README](./Projeto42%20-%20RTOS%2002/README.md))
+- **[Projeto43 - RTOS 03](./Projeto43%20-%20RTOS%2003/)** - Semáforos binários ([📖 README](./Projeto43%20-%20RTOS%2003/README.md))
+- **[Projeto44 - RTOS 04](./Projeto44%20-%20RTOS%2004/)** - Semáforos contadores ([📖 README](./Projeto44%20-%20RTOS%2004/README.md))
+- **[Projeto45 - RTOS 05](./Projeto45%20-%20RTOS%2005/)** - Mutex ([📖 README](./Projeto45%20-%20RTOS%2005/README.md))
+- **[Projeto46 - RTOS 06](./Projeto46%20-%20RTOS%2006/)** - Filas de mensagens ([📖 README](./Projeto46%20-%20RTOS%2006/README.md))
+- **[Projeto47 - RTOS 07](./Projeto47%20-%20RTOS%2007/)** - Software timers ([📖 README](./Projeto47%20-%20RTOS%2007/README.md))
+- **[Projeto48 - RTOS 08](./Projeto48%20-%20RTOS%2008/)** - Event flags ([📖 README](./Projeto48%20-%20RTOS%2008/README.md))
 
 ### 🔶 Comunicação CAN (49-56)
 Protocolos CAN e CAN FD.
 
-- **[Projeto49 - CAN Loopback](./Projeto49%20-%20CAN%20Loopback/)** - CAN modo loopback
-- **[Projeto50 - CAN Normal](./Projeto50%20-%20CAN%20Normal%20mode/)** - CAN modo normal
-- **[Projeto51 - CAN Interrupt](./Projeto51%20-%20CAN%20Loopback%20Interrupt/)** - CAN com interrupção
-- **[Projeto52 - CAN Filter](./Projeto52%20-%20CAN%20Loopback%20Filter%20ID%20Mask/)** - Filtros CAN
-- **[Projeto53 - CAN Filter Advanced](./Projeto53%20-%20CAN%20Filter/)** - Filtros avançados
-- **[Projeto54 - FDCAN 1](./Projeto54%20-%20FDCAN%201%20Loopback/)** - FDCAN loopback
-- **[Projeto55 - FDCAN 2](./Projeto55%20-%20FDCAN%202%20Loopback/)** - FDCAN avançado
-- **[Projeto56 - FDCAN Normal](./Projeto56%20-%20FDCAN%20in%20Normal%20Mode/)** - FDCAN normal
+- **[Projeto49 - CAN Loopback](./Projeto49%20-%20CAN%20Loopback/)** - CAN modo loopback ([📖 README](./Projeto49%20-%20CAN%20Loopback/README.md))
+- **[Projeto50 - CAN Normal](./Projeto50%20-%20CAN%20Normal%20mode/)** - CAN modo normal ([📖 README](./Projeto50%20-%20CAN%20Normal%20mode/README.md))
+- **[Projeto51 - CAN Interrupt](./Projeto51%20-%20CAN%20Loopback%20Interrupt/)** - CAN com interrupção ([📖 README](./Projeto51%20-%20CAN%20Loopback%20Interrupt/README.md))
+- **[Projeto52 - CAN Filter](./Projeto52%20-%20CAN%20Loopback%20Filter%20ID%20Mask/)** - Filtros CAN ([📖 README](./Projeto52%20-%20CAN%20Loopback%20Filter%20ID%20Mask/README.md))
+- **[Projeto53 - CAN Filter Advanced](./Projeto53%20-%20CAN%20Filter/)** - Filtros avançados ([📖 README](./Projeto53%20-%20CAN%20Filter/README.md))
+- **[Projeto54 - FDCAN 1](./Projeto54%20-%20FDCAN%201%20Loopback/)** - FDCAN loopback ([📖 README](./Projeto54%20-%20FDCAN%201%20Loopback/README.md))
+- **[Projeto55 - FDCAN 2](./Projeto55%20-%20FDCAN%202%20Loopback/)** - FDCAN avançado ([📖 README](./Projeto55%20-%20FDCAN%202%20Loopback/README.md))
+- **[Projeto56 - FDCAN Normal](./Projeto56%20-%20FDCAN%20in%20Normal%20Mode/)** - FDCAN normal ([📖 README](./Projeto56%20-%20FDCAN%20in%20Normal%20Mode/README.md))
 
 ### 🔷 Projetos Avançados (57-63)
 Aplicações complexas e industriais.
 
-- **[Projeto57 - SD Card 1](./Projeto57%20-%20SD%20Card%201/)** - Interface SD Card
-- **[Projeto58 - SD DataLogger](./Projeto58%20-%20SD%20Card%20DataLogger/)** - Logger de dados
-- **[Projeto59 - LCD 16x2](./Projeto59%20-%20LCD%2016x2/)** - Display LCD
-- **[Projeto60 - CRC Modbus](./Projeto60%20-%20CRC%20Modbus/)** - Cálculo CRC
+- **[Projeto57 - SD Card 1](./Projeto57%20-%20SD%20Card%201/)** - Interface SD Card ([📖 README](./Projeto57%20-%20SD%20Card%201/README.md))
+- **[Projeto58 - SD DataLogger](./Projeto58%20-%20SD%20Card%20DataLogger/)** - Logger de dados ([📖 README](./Projeto58%20-%20SD%20Card%20DataLogger/README.md))
+- **[Projeto59 - LCD 16x2](./Projeto59%20-%20LCD%2016x2/)** - Display LCD ([📖 README](./Projeto59%20-%20LCD%2016x2/README.md))
+- **[Projeto60 - CRC Modbus](./Projeto60%20-%20CRC%20Modbus/)** - Cálculo CRC ([📖 README](./Projeto60%20-%20CRC%20Modbus/README.md))
 - **[Projeto61 - Modbus RTU](./Projeto61%20-%20Modbus%20RTU%20Serial/)** - Protocolo Modbus
 - **[Projeto62 - TCP](./Projeto62%20-%20TCP/)** - Comunicação TCP/IP
 - **[Projeto63 - Reset Reason](./Projeto63%20-%20Reset%20Reason/)** - Análise de reset
@@ -177,14 +177,6 @@ Framework para sistemas de eventos.
 - **[QP Projeto03 - Pub-Sub](./QP%20-%20Projeto03%20-%20Publish-Subscribe/)** - Publish-Subscribe
 - **[QP Projeto04 - Eventos](./QP%20-%20Projeto04%20-%20Eventos%20dinamicos/)** - Eventos dinâmicos
 - **[QP Projeto05 - FreeRTOS](./QP%20-%20Projeto05%20-%20Port%20para%20FreeRTOS/)** - QP com FreeRTOS
-
-### 🔳 Projetos Especiais
-Aplicações específicas e testes.
-
-- **[EOL](./EOL/)** - End of Line Testing
-- **[Gateway LoRa](./Gateway_LoRa/)** - Gateway de comunicação LoRa
-- **[FreeRTOS TAD Logs](./FreeRTOS_TAD_logs/)** - Sistema de logs
-- **[Relay Test](./RelayTestSTM32/)** - Teste de relés
 
 ## 🚀 Como Usar
 

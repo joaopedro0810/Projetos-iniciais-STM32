@@ -1,60 +1,61 @@
-# Projeto41 - RTOS 01 ⚡
+# Projeto 41 - RTOS 01
 
-![Dificuldade](https://img.shields.io/badge/Dificuldade-Avançado-red.svg)
-![Periféricos](https://img.shields.io/badge/Periféricos-FreeRTOS-purple.svg)
-![Tempo](https://img.shields.io/badge/Tempo-45%20min-orange.svg)
-
-## 📋 Descrição
-
-Este projeto introduz o **FreeRTOS** (Free Real-Time Operating System) no STM32. Demonstra como criar múltiplas tarefas (tasks) que executam concorrentemente, controlando LEDs independentes com diferentes períodos de piscada.
+## Descrição do Projeto
+Este projeto implementa a introdução ao FreeRTOS (Free Real-Time Operating System) no microcontrolador STM32F407VET6. O sistema demonstra os conceitos fundamentais de sistema operacional em tempo real, incluindo criação de tarefas (tasks), escalonamento preemptivo, gerenciamento de prioridades e multitarefa concorrente através de duas tarefas independentes que controlam LEDs com períodos diferentes.
 
 ## 🎯 Objetivos de Aprendizado
 
 - Compreender conceitos de sistemas operacionais em tempo real
 - Criar e gerenciar tarefas (tasks)
-- Implementar scheduling preemptivo
-- Trabalhar com prioridades de tarefas
-- Entender stack de tarefas e context switching
+## Funcionalidades
+- **FreeRTOS Básico**: Implementação fundamental de sistema operacional em tempo real
+- **Multitarefa**: Duas tarefas executando concorrentemente
+- **Escalonamento Preemptivo**: Scheduler automático baseado em prioridades
+- **Task Management**: Criação, configuração e gerenciamento de tarefas
+- **Delay Functions**: Uso de osDelay() para suspensão cooperativa de tarefas
+- **LED Control**: Controle independente de dois LEDs com períodos distintos
+- **Priority System**: Sistema de prioridades (Normal vs Idle)
 
-## 🔧 Hardware Necessário
+## Hardware Necessário
+- Placa de desenvolvimento STM32F407VET6
+- 2 LEDs conectados aos pinos PA0 (LED_1) e PA1 (LED_2)
+- Resistores limitadores para LEDs (220Ω recomendado)
+- Fonte de alimentação
+- Programador ST-Link
 
-- **Microcontrolador:** STM32F407VET6
-- **LEDs:** 2 LEDs externos (ou use LEDs onboard)
-- **Resistores:** 2x 330Ω
-- **Protoboard e jumpers**
+## Configuração dos Pinos
+| Pino STM32 | Função | Descrição |
+|------------|--------|-----------|
+| PA0 | LED_1 | LED da Task 1 (5s) |
+| PA1 | LED_2 | LED da Task 2 (2.5s) |
+| GND | Ground | Terra comum |
 
-## 📐 Esquema de Ligação
+## Análise Técnica
 
-```
-STM32F407VET6    |    Hardware
-================================
-PA0    --------> |+| LED1 --|> GND
-                      |
-                    330Ω
+### Configuração FreeRTOS
+O projeto utiliza FreeRTOS com as seguintes configurações:
+- **Scheduler**: Preemptive scheduler
+- **Tick Rate**: 1000 Hz (1ms tick)
+- **Task Stack**: 128 words (512 bytes) por task
+- **Heap**: Dynamic memory allocation
+- **API**: CMSIS-RTOS v1
 
-PA1    --------> |+| LED2 --|> GND
-                      |
-                    330Ω
-```
-
-### Configuração de Pinos
-- **PA0:** GPIO_Output (LED1 - Task 1)
-- **PA1:** GPIO_Output (LED2 - Task 2)
-
-## 💻 Principais Conceitos
-
-### 1. Configuração FreeRTOS
+### Estrutura das Tarefas
 ```c
-// Handles das tarefas
-osThreadId Liga_Led_1Handle;
-osThreadId Liga_Led_2Handle;
-
-// Definição das tarefas
+// Task 1 - Prioridade Normal
 osThreadDef(Liga_Led_1, ligaLed1_Fun, osPriorityNormal, 0, 128);
-osThreadDef(Liga_Led_2, ligaLed2_Fun, osPriorityNormal, 0, 128);
+Liga_Led_1Handle = osThreadCreate(osThread(Liga_Led_1), NULL);
+
+// Task 2 - Prioridade Idle
 ```
 
-### 2. Criação das Tarefas
+### Prioridades de Task
+- **osPriorityNormal**: Task 1 (Liga_Led_1) - Prioridade mais alta
+- **osPriorityIdle**: Task 2 (Liga_Led_2) - Prioridade mais baixa
+
+## Código Principal
+
+### Criação das Tarefas
 ```c
 int main(void)
 {
