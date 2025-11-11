@@ -64,8 +64,8 @@ all: main-build
 main-build: QP\ -\ Projeto01\ -\ Bink.elf secondary-outputs
 
 # Tool invocations
-QP\ -\ Projeto01\ -\ Bink.elf QP\ -\ Projeto01\ -\ Bink.map: $(OBJS) $(USER_OBJS) C:\Users\joaop\Documents\WorkspaceEstudo\QP\ -\ Projeto01\ -\ Bink\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "QP - Projeto01 - Bink.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\joaop\Documents\WorkspaceEstudo\QP - Projeto01 - Bink\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="QP - Projeto01 - Bink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+QP\ -\ Projeto01\ -\ Bink.elf QP\ -\ Projeto01\ -\ Bink.map: $(OBJS) $(USER_OBJS) C:\ST\Workspace\ STM\Workspace\ Estudo\Projetos-iniciais-STM32\QP\ -\ Projeto01\ -\ Bink\STM32F407VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "QP - Projeto01 - Bink.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\ST\Workspace STM\Workspace Estudo\Projetos-iniciais-STM32\QP - Projeto01 - Bink\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="QP - Projeto01 - Bink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

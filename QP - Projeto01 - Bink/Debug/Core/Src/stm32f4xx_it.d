@@ -24,15 +24,15 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qf_port.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qep_port.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qep.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qv_port.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qv.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qequeue.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qmpool.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qpset.h \
- C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qf.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qf_port.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qep_port.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qep.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qv_port.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qv.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qequeue.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qmpool.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qpset.h \
+ C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qf.h \
  ../Core/Inc/stm32f4xx_it.h ../Core/Inc/SharedData.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
@@ -60,14 +60,14 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qf_port.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qep_port.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qep.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qv_port.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qv.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qequeue.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qmpool.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qpset.h:
-C:/Users/joaop/Documents/WorkspaceEstudo/QP\ -\ Projeto01\ -\ Bink/QP/include/qf.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qf_port.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qep_port.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qep.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/ports/arm-cm/qv/gnu/qv_port.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qv.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qequeue.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qmpool.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qpset.h:
+C:/ST/Workspace\ STM/Workspace\ Estudo/Projetos-iniciais-STM32/QP\ -\ Projeto01\ -\ Bink/QP/include/qf.h:
 ../Core/Inc/stm32f4xx_it.h:
 ../Core/Inc/SharedData.h:
